@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<style type="text/css">
+body
+{
+	background-color:#0FF;
+}
+.btn1
+{
+  background: #d9d9d9;
+  color: #555;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+.name
+{
+  height:100%;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+.header {
+  background-color: #f44336;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+.btn
+{
+  margin-left:10px;
+  margin-right:20px;
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+#list
+{
+	background-color:#000;
+	color:#FFF;
+	font-size: 16px;
+	border-bottom: 2px solid #16a085;
+	border-color:#FFF;
+	border-bottom-color:#CCC;
+}
+li
+{
+	border-bottom: 2px solid #16a085;
+	border-color:#FFF;
+	padding:10px;
+}
+h1,h3
+{
+	color:#000;
+}
+</style>
+</head>
+
+<body>
+
+<center>
+<div class="header">
+<h1>Rizwan Ullah</h1>
+<h3>rizwanullahtiger313@gmail.com</h3>
+<input type="text" placeholder="Enter todo" id="todo-item" name="todo-item" class="name" />
+<button onclick="addTodo()" class="btn1">ADD ITEM</button>
+<button onclick="deleteAll()" class="btn1">DELETE ALL</button>
+</div>
+
+<div>
+<ol id="list" >
+
+</ol>
+</div>
+</center>
+<script src="todo.js"></script>
+</body>
+</html>
